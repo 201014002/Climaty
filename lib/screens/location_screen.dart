@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:climaty/utilities/constants.dart';
-
+import 'package:climaty/screens/city_screen.dart';
 class LocationScreen extends StatefulWidget {
+  LocationScreen({this.locationWeather});
+  final locationWeather;
   @override
   _LocationScreenState createState() => _LocationScreenState();
 }

@@ -24,3 +24,7 @@ class Location{
   }
 
 }
+
+// double temperature=decodedDate['main']['temp'];
+// int condition=decodedDate['weather'][0]['id'];
+// String cityName=decodedDate['name'];
