@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 const kTempTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 100.0,
+  fontWeight: FontWeight.w800,
 );
 
 const kMessageTextStyle = TextStyle(
@@ -17,4 +18,5 @@ const kButtonTextStyle = TextStyle(
 
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
+  fontWeight: FontWeight.w800,
 );
